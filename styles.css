@@ -143,7 +143,7 @@ section.hero {
   color: white;
   position: absolute;
   left: 6%;
-  bottom: -50%;
+  bottom: 0%;
   padding: 10px 20px;
   border-radius: 30px;
   background: linear-gradient(to right, #c72092, #6c14d0);
