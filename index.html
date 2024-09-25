@@ -420,5 +420,76 @@
         </div>
       </div>
     </section>
+
+    <section class="about container" id="About">
+      <h1 class="about_title">Web <span class="about_span">About</span></h1>
+      <div class="about_main">
+        <div class="about_image">
+          <div class="about_small_image">
+            <img
+              src="./image/red_shoes1.png"
+              alt="shoes front view"
+              width="150"
+              onclick="functio(this)"
+            />
+            <img
+              src="./image/red_shoes2.png"
+              alt="shoes front and back view"
+              width="150"
+              onclick="functio(this)"
+            />
+            <img
+              src="./image/red_shoes3.png"
+              alt="shoes side view"
+              width="150"
+              onclick="functio(this)"
+            />
+            <img
+              src="./image/red_shoes4.png"
+              alt="shoes other side view"
+              width="150"
+              onclick="functio(this)"
+            />
+          </div>
+
+          <div class="image_container">
+            <img
+              src="./image/red_shoes1.png"
+              alt="red shoes front view"
+              id="imagebox"
+            />
+          </div>
+
+          <div class="about_desc">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque
+              illo expedita obcaecati mollitia quae, incidunt possimus,
+              reiciendis atque itaque maxime aut nisi culpa tempora
+              dolores?Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Neque illo expedita obcaecati mollitia quae, incidunt possimus,
+              reiciendis atque itaque maxime aut nisi culpa tempora
+              dolores?Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Neque illo expedita obcaecati mollitia quae, incidunt possimus,
+              reiciendis atque itaque maxime aut nisi culpa tempora dolores?
+            </p>
+          </div>
+
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="about_btn"
+            >shop now</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <script>
+      function functio(e) {
+        let image = document.getElementById("imagebox");
+        image.src = e.src;
+      }
+    </script>
   </body>
 </html>
