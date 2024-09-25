@@ -4,17 +4,25 @@
   box-sizing: border-box;
   font-family: sans-serif;
   text-decoration: none;
-  color: black;
+}
+i,
+a {
+  color: #000;
 }
 
 html {
   scroll-behavior: smooth;
+  min-width: 1440px;
 }
 
 /* !HEADER */
+section {
+  width: 100vw;
+  /* border: 1px solid red; */
+}
 
 .container {
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .header_nav {
@@ -140,7 +148,6 @@ section.hero {
 }
 .button {
   text-transform: uppercase;
-  color: white;
   position: absolute;
   left: 7%;
   bottom: 5%;
@@ -153,6 +160,7 @@ section.hero {
 }
 .button i {
   margin-left: 5px;
+  color: white;
 }
 .button:hover a,
 .button:hover i,
@@ -284,4 +292,12 @@ section.hero {
   color: white;
   border-radius: 5px;
   margin-top: 100px;
+}
+/* !ABOUT */
+.about.container {
+  color: #000;
+  height: 140vh;
+}
+.about_btn {
+  text-transform: capitalize;
 }
