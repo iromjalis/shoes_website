@@ -13,13 +13,20 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <section class="header_container">
+    <!-- Header -->
+    <section class="header container">
       <nav class="header_nav">
         <!-- logo -->
         <div class="header_logo">
-          <h1 class="header_title">Shoe <span class="header_span">s</span></h1>
+          <h1 class="header_title">Shoe<span class="header_span">s</span></h1>
         </div>
 
         <!-- header nav links -->
@@ -71,48 +78,346 @@
           </li>
         </ul>
 
-        <!-- header nav icons -->
+        <!-- hero nav icons -->
         <div class="icons">
           <i class="fa-solid fa-heart icon"></i>
           <i class="fas fa-cart-shopping icon"></i>
           <i class="fas fa-user icon"></i>
         </div>
       </nav>
+    </section>
 
-      <div class="main" id="Home">
-        <div class="main_container">
-          <!-- hero title  -->
-          <div class="main_text">
-            <h1 class="main_header">
-              Nike <br />
-              <span>Collection</span>
-            </h1>
-            <p class="main_p">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged.
-            </p>
-          </div>
-
-          <!-- hero img -->
-          <div class="main_img">
-            <img src="./image/shoes.png" alt="Nike shoes" />
-          </div>
+    <!-- Hero -->
+    <section class="hero container" id="Home">
+      <div class="main">
+        <!-- hero title  -->
+        <div class="main_text">
+          <h1 class="main_header">
+            Nike <br />
+            <span>Collection</span>
+          </h1>
+          <p class="main_p">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged.
+          </p>
         </div>
 
-        <!-- social icons -->
-        <div class="social_icons">
-          <i class="fab fa-facebook"></i>
-          <i class="fab fa-twitter"></i>
-          <i class="fab fa-instagram"></i>
-          <i class="fab fa-linkedin"></i>
+        <!-- hero img -->
+        <div class="main_img">
+          <img src="./image/shoes.png" alt="Nike shoes" />
         </div>
+      </div>
 
-        <a href="#" class="button">buy now</a>
+      <!-- social icons -->
+      <div class="social_icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin"></i>
+      </div>
+
+      <div class="button">
+        <a href="#">buy now</a>
         <i class="fas fa-chevron-right"></i>
+      </div>
+    </section>
+
+    <!-- Products -->
+    <section class="products container" id="Products">
+      <h1 class="products_title">Products</h1>
+
+      <div class="box">
+        <div class="card">
+          <div class="small_card">
+            <i class="fas fa-heart" title="add to favourites"></i>
+            <i class="fas fa-share" title="share to others"></i>
+          </div>
+
+          <div class="image_container">
+            <img
+              class="image"
+              src="./image/shoes1.png"
+              alt="example of one of the product"
+              width="150"
+            />
+          </div>
+
+          <div class="products_card">
+            <h2 class="card_title">NIKE</h2>
+            <p class="card_p">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            </p>
+            <h3 class="card_price">$109.99</h3>
+            <div class="product_stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-stroke"></i>
+            </div>
+            <a href="#" class="products_card_btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="small_card">
+            <i class="fas fa-heart" title="add to favourites"></i>
+            <i class="fas fa-share" title="share to others"></i>
+          </div>
+
+          <div class="image_container">
+            <img
+              class="image"
+              src="./image/shoes2.png"
+              alt="example of one of the product"
+              width="150"
+            />
+          </div>
+
+          <div class="products_card">
+            <h2 class="card_title">NIKE</h2>
+            <p class="card_p">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            </p>
+            <h3 class="card_price">$20.99</h3>
+            <div class="product_stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <a href="#" class="products_card_btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="small_card">
+            <i class="fas fa-heart" title="add to favourites"></i>
+            <i class="fas fa-share" title="share to others"></i>
+          </div>
+
+          <div class="image_container">
+            <img
+              class="image"
+              src="./image/shoes3.png"
+              alt="example of one of the product"
+              width="150"
+            />
+          </div>
+
+          <div class="products_card">
+            <h2 class="card_title">NIKE</h2>
+            <p class="card_p">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            </p>
+            <h3 class="card_price">$60.99</h3>
+            <div class="product_stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-stroke"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <a href="#" class="products_card_btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="small_card">
+            <i class="fas fa-heart" title="add to favourites"></i>
+            <i class="fas fa-share" title="share to others"></i>
+          </div>
+
+          <div class="image_container">
+            <img
+              class="image"
+              src="./image/shoes4.png"
+              alt="example of one of the product"
+              width="150"
+            />
+          </div>
+
+          <div class="products_card">
+            <h2 class="card_title">NIKE</h2>
+            <p class="card_p">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            </p>
+            <h3 class="card_price">$20.50</h3>
+            <div class="product_stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-stroke"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <a href="#" class="products_card_btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="small_card">
+            <i class="fas fa-heart" title="add to favourites"></i>
+            <i class="fas fa-share" title="share to others"></i>
+          </div>
+
+          <div class="image_container">
+            <img
+              class="image"
+              src="./image/shoes5.png"
+              alt="example of one of the product"
+              width="150"
+            />
+          </div>
+
+          <div class="products_card">
+            <h2 class="card_title">NIKE</h2>
+            <p class="card_p">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            </p>
+            <h3 class="card_price">$189.99</h3>
+            <div class="product_stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <a href="#" class="products_card_btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="small_card">
+            <i class="fas fa-heart" title="add to favourites"></i>
+            <i class="fas fa-share" title="share to others"></i>
+          </div>
+
+          <div class="image_container">
+            <img
+              class="image"
+              src="./image/shoes6.png"
+              alt="example of one of the product"
+              width="150"
+            />
+          </div>
+
+          <div class="products_card">
+            <h2 class="card_title">NIKE</h2>
+            <p class="card_p">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            </p>
+            <h3 class="card_price">$69.99</h3>
+            <div class="product_stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-stroke"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <a href="#" class="products_card_btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="small_card">
+            <i class="fas fa-heart" title="add to favourites"></i>
+            <i class="fas fa-share" title="share to others"></i>
+          </div>
+
+          <div class="image_container">
+            <img
+              class="image"
+              src="./image/shoes7.png"
+              alt="example of one of the product"
+              width="150"
+            />
+          </div>
+
+          <div class="products_card">
+            <h2 class="card_title">NIKE</h2>
+            <p class="card_p">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            </p>
+            <h3 class="card_price">$90.99</h3>
+            <div class="product_stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-stroke"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <a href="#" class="products_card_btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="small_card">
+            <i class="fas fa-heart" title="add to favourites"></i>
+            <i class="fas fa-share" title="share to others"></i>
+          </div>
+
+          <div class="image_container">
+            <img
+              class="image"
+              src="./image/shoes8.png"
+              alt="example of one of the product"
+              width="150"
+            />
+          </div>
+
+          <div class="products_card">
+            <h2 class="card_title">NIKE</h2>
+            <p class="card_p">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            </p>
+            <h3 class="card_price">$99.99</h3>
+            <div class="product_stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <a href="#" class="products_card_btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="small_card">
+            <i class="fas fa-heart" title="add to favourites"></i>
+            <i class="fas fa-share" title="share to others"></i>
+          </div>
+
+          <div class="image_container">
+            <img
+              class="image"
+              src="./image/shoes1.png"
+              alt="example of one of the product"
+              width="150"
+            />
+          </div>
+
+          <div class="products_card">
+            <h2 class="card_title">NIKE</h2>
+            <p class="card_p">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            </p>
+            <h3 class="card_price">$79.99</h3>
+            <div class="product_stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-stroke"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <a href="#" class="products_card_btn">add to cart</a>
+          </div>
+        </div>
       </div>
     </section>
   </body>
