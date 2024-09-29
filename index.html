@@ -121,7 +121,7 @@
       </div>
 
       <div class="button">
-        <a href="#">buy now</a>
+        <a href="#" class="btn">buy now</a>
         <i class="fas fa-chevron-right"></i>
       </div>
     </section>
@@ -159,7 +159,7 @@
               <i class="fas fa-star"></i>
               <i class="fas fa-star-half-stroke"></i>
             </div>
-            <a href="#" class="products_card_btn">add to cart</a>
+            <a href="#" class="products_card_btn btn">add to cart</a>
           </div>
         </div>
 
@@ -191,7 +191,7 @@
               <i class="fa-regular fa-star"></i>
               <i class="fa-regular fa-star"></i>
             </div>
-            <a href="#" class="products_card_btn">add to cart</a>
+            <a href="#" class="products_card_btn btn">add to cart</a>
           </div>
         </div>
 
@@ -223,7 +223,7 @@
               <i class="fas fa-star-half-stroke"></i>
               <i class="fa-regular fa-star"></i>
             </div>
-            <a href="#" class="products_card_btn">add to cart</a>
+            <a href="#" class="products_card_btn btn">add to cart</a>
           </div>
         </div>
 
@@ -255,7 +255,7 @@
               <i class="fa-regular fa-star"></i>
               <i class="fa-regular fa-star"></i>
             </div>
-            <a href="#" class="products_card_btn">add to cart</a>
+            <a href="#" class="products_card_btn btn">add to cart</a>
           </div>
         </div>
 
@@ -287,7 +287,7 @@
               <i class="fas fa-star"></i>
               <i class="fa-regular fa-star"></i>
             </div>
-            <a href="#" class="products_card_btn">add to cart</a>
+            <a href="#" class="products_card_btn btn">add to cart</a>
           </div>
         </div>
 
@@ -319,7 +319,7 @@
               <i class="fas fa-star-half-stroke"></i>
               <i class="fa-regular fa-star"></i>
             </div>
-            <a href="#" class="products_card_btn">add to cart</a>
+            <a href="#" class="products_card_btn btn">add to cart</a>
           </div>
         </div>
 
@@ -351,7 +351,7 @@
               <i class="fa-regular fa-star"></i>
               <i class="fa-regular fa-star"></i>
             </div>
-            <a href="#" class="products_card_btn">add to cart</a>
+            <a href="#" class="products_card_btn btn">add to cart</a>
           </div>
         </div>
 
@@ -383,7 +383,7 @@
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
             </div>
-            <a href="#" class="products_card_btn">add to cart</a>
+            <a href="#" class="products_card_btn btn">add to cart</a>
           </div>
         </div>
 
@@ -415,10 +415,84 @@
               <i class="fas fa-star-half-stroke"></i>
               <i class="fa-regular fa-star"></i>
             </div>
-            <a href="#" class="products_card_btn">add to cart</a>
+            <a href="#" class="products_card_btn btn">add to cart</a>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- About  -->
+    <section class="about container" id="About">
+      <h1 class="about_title">
+        Web
+        <span>About</span>
+      </h1>
+
+      <div class="about_main">
+        <div class="about_image_div">
+          <div class="about_small_image">
+            <img
+              class="about_image"
+              width="92"
+              src="./image/red_shoes1.png"
+              alt="front size shoes"
+              onclick="functio(this)"
+            />
+            <img
+              class="about_image"
+              width="92"
+              src="./image/red_shoes2.png"
+              alt="backside shoes"
+              onclick="functio(this)"
+            />
+            <img
+              class="about_image"
+              width="92"
+              src="./image/red_shoes3.png"
+              alt="other side shoes"
+              onclick="functio(this)"
+            />
+            <img
+              class="about_image"
+              width="92"
+              src="./image/red_shoes4.png"
+              alt="side shoes"
+              onclick="functio(this)"
+            />
+          </div>
+
+          <div class="image_container">
+            <img
+              src="./image/red_shoes1.png"
+              alt="front size shoes"
+              id="imagebox"
+              width="750"
+            />
+          </div>
+        </div>
+
+        <div class="about_text">
+          <p class="about_text_p">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro ex
+            sapiente, expedita facilis, ducimus sunt veniam quibusdam dicta
+            atque provident velit quod nesciunt numquam pariatur aliquam!
+            Praesentium deserunt non delectus ab ad nisi, recusandae numquam,
+            veniam in tempore voluptas nemo molestiae qui, modi consequatur
+            natus odit? Tempora harum impedit vitae. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Cum, expedita? Lorem ipsum dolor sit
+          </p>
+        </div>
+      </div>
+      <a href="#" class="about_btn btn">shop now</a>
+    </section>
+
+    <!-- Review -->
+
+    <script>
+      function functio(e) {
+        let image = document.getElementById("imagebox");
+        image.src = e.src;
+      }
+    </script>
   </body>
 </html>
