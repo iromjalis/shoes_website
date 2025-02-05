@@ -18,11 +18,6 @@ html {
 /* !HEADER */
 section {
   width: 100vw;
-  /* border: 1px solid red; */
-}
-
-.container {
-  /* border: 1px solid red; */
 }
 
 .header_nav {
@@ -300,7 +295,6 @@ section.hero {
   height: 1000px;
   padding: 35px 0px;
 
-  border: 1px solid red;
   cursor: pointer;
   position: relative;
 }
